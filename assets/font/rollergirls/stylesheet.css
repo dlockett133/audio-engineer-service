@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Rollergirls';
+    src: url('Rollergirls.eot');
+    src: url('Rollergirls.eot?#iefix') format('embedded-opentype'),
+        url('Rollergirls.woff2') format('woff2'),
+        url('Rollergirls.woff') format('woff'),
+        url('Rollergirls.ttf') format('truetype'),
+        url('Rollergirls.svg#Rollergirls') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
