@@ -10,14 +10,9 @@ body {
 }
 
 .container {
-  /* background-color: #1f2937; */
-  /* background-color: black;
-  margin: 0px 140px;
-  min-height: 100vh; */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* flex-shrink: 0; */
-  /* color: rgba(0, 0, 0, 0.9); */
 }
 
 .header {
@@ -31,22 +26,26 @@ body {
   justify-content: space-between;
   flex-direction: row;
   background-color: #f5f5f5;
-  padding: 0px 16px;
+  padding: 0px 32px;
   border-bottom: 1px solid #1f2937;
 }
 
 .header-content {
-  /* background-color: #1f2937; */
   background-color: #f5f5f5;
+  background-position: bottom;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   padding: 16px 90px;
   gap: 50px;
-  /* color: #e5e7eb; */
 }
 
 .mix-board {
   border-radius: 8px;
+}
+
+.mix-board:hover {
+  opacity: 0.5;
 }
 
 .body {
@@ -96,6 +95,13 @@ body {
 }
 
 .sign-up {
+  /* font-family: "Rollergirls";
+  font-size: 14px; */
+  font-family: "Gill Sans", sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+  text-align: left;
   display: flex;
   flex-wrap: wrap;
   width: 350px;
@@ -103,19 +109,13 @@ body {
   align-items: center;
   justify-content: flex-start;
   margin-left: 50px;
+  line-height: 16px;
+  word-spacing: 3px;
 }
 
-/* .brand-img {
-  padding-left: 3px;
-  border-radius: 50px;
-  width: 25;
-  height: 100px;
-  flex: ;
-} */
-
-/* .test {
-  display: flex;
-} */
+.sign-up button {
+  margin-top: 10px;
+}
 
 .testimony {
   background-color: #e5e7eb;
@@ -124,11 +124,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 50px 300px; */
   padding: 16px 15px;
   height: 240px;
-  justify-content: center;
+  justify-content: space-between;
   flex-basis: 33%;
+}
+
+#testimony {
+  font-family: "Rollergirls";
+  margin: 0px;
 }
 
 #test-box {
@@ -139,13 +143,19 @@ body {
   width: 66%;
 }
 
+#test-box a {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+}
+
 #sig {
   display: flex;
   justify-content: flex-end;
 }
 
 .mail-list {
-  /* background-color: #3882f6; */
   display: flex;
   align-items: center;
   padding: 16px 15px;
@@ -188,7 +198,6 @@ ul {
   font-style: italic;
 }
 .top-bar a {
-  /* text-decoration: none; */
   color: rgba(0, 0, 0, 0.9);
 }
 
@@ -209,7 +218,6 @@ button {
 .black-swan {
   font-family: "Rollergirls";
   font-style: italic;
-  /* text-decoration: underline; */
 }
 
 .navbar-brand {
@@ -218,7 +226,6 @@ button {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  /* text-decoration: none; */
   white-space: nowrap;
   align-items: center;
 }
@@ -228,19 +235,33 @@ button {
   border-radius: 5px;
 }
 
-/* #black-swan {
-  font-family: "Rollergirls";
-  font-style: italic;
-} */
-
 .footer {
-  font-family: "Rollergirls";
+  font-family: "Gill Sans", sans-serif;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
   background-color: #f5f5f5;
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   color: rgba(0, 0, 0, 0.9);
   height: 72px;
+}
+
+.footer p {
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#foot-logo {
+  font-family: "Rollergirls";
+  font-size: 18px;
 }
 
 @font-face {
