@@ -1,2 +1,3 @@
 # audio-engineer-service
-A page showcasing my audio engineer services
+
+A page showcasing a fake mock-up audio engineer services website.
