@@ -292,12 +292,12 @@ button {
 
 @font-face {
   font-family: "Rollergirls";
-  src: url("/assets/font/Rollergirls.eot");
-  src: url("/assets/font/Rollergirls.eot?#iefix") format("embedded-opentype"),
-    url("/assets/font/Rollergirls.woff2") format("woff2"),
-    url("/assets/font/Rollergirls.woff") format("woff"),
-    url("/assets/font/Rollergirls.ttf") format("truetype"),
-    url("/assets/font/Rollergirls.svg#Rollergirls") format("svg");
+  src: url("assets/font/Rollergirls.eot");
+  src: url("assets/font/Rollergirls.eot?#iefix") format("embedded-opentype"),
+    url("assets/font/Rollergirls.woff2") format("woff2"),
+    url("assets/font/Rollergirls.woff") format("woff"),
+    url("assets/font/Rollergirls.ttf") format("truetype"),
+    url("assets/font/Rollergirls.svg#Rollergirls") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
